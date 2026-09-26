@@ -1,0 +1,15 @@
+{
+  "name": "session6-security-and-validation",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Environment variables, validation, and safe error handling examples",
+  "scripts": {
+    "env": "node environmentVariables.js",
+    "signup": "node signupServer.js",
+    "promo": "node promoCode.js",
+    "spotify": "node spotifyToken.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  }
+}
