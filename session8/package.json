@@ -1,0 +1,14 @@
+{
+  "name": "session8-modules-and-validation",
+  "version": "1.0.0",
+  "private": true,
+  "description": "File reading, CommonJS modules, discounts, and email validation",
+  "scripts": {
+    "playlist": "node readPlaylist.js",
+    "start": "node app.js",
+    "email": "node emailChecker.js"
+  },
+  "dependencies": {
+    "validator": "^13.15.15"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "session9-command-line-songs",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Command-line arguments, Yargs, and array searches",
+  "scripts": {
+    "greet": "node greet.js",
+    "add-song": "node addSong.js",
+    "search-song": "node searchSong.js",
+    "movie": "node movieSearch.js"
+  },
+  "dependencies": {
+    "yargs": "^17.7.2"
+  }
+}
